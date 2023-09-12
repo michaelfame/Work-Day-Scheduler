@@ -21,80 +21,86 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
     <title>Work Day Scheduler</title>
   </head>
 
   <body>
-    <header>
+    <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
+
     <div class="container">
       <!-- Timeblocks go here -->
-      <!-- <section class="jumbotron"> -->
-      <section id="hour-9" class="row time-block">
+      <section class="text-center notification" id="notify">Work Event added to <code>localstorage</code>
+      </section>
+        <section id="hour-9" class="row time-block">
         <section class="col-md-1 hour">9AM</section>
-        <textarea class="col-md-10 description"></textarea>
-        <button class="saveBtn col-md-1"><i class="fas fa-save saveIcon"></i></button> 
+        <textarea id="eventDetails9" class="col-md-10 description"></textarea>
+        <button class="saveButton col-md-1"><i class="fas fa-save saveIcon"></i></button> 
                 
       </section>
       <section id="hour-10" class="row time-block">
         <section class="col-md-1 hour">10AM</section>
-        <textarea class="col-md-10 description"></textarea>
-        <button class="saveBtn col-md-1"><i class="fas fa-save saveIcon"></i></button>
+        <textarea id="eventDetails10" class="col-md-10 description"></textarea>
+        <button class="saveButton col-md-1"><i class="fas fa-save saveIcon"></i></button>
                 
       </section>
       <section id="hour-11" class="row time-block">
         <section class="col-md-1 hour">11AM</section>
-        <textarea class="col-md-10 description"></textarea>
-        <button class="saveBtn col-md-1"><i class="fas fa-save saveIcon"></i></button>
+        <textarea id="eventDetails11" class="col-md-10 description"></textarea>
+        <button class="saveButton col-md-1"><i class="fas fa-save saveIcon"></i></button>
                 
       </section>
       <section id="hour-12" class="row time-block">
         <section class="col-md-1 hour">12PM</section>
-        <textarea class="col-md-10 description"></textarea>
-        <button  class="saveBtn col-md-1"><i class="fas fa-save saveIcon"></i></button> 
+        <textarea id="eventDetails12" class="col-md-10 description"></textarea>
+        <button  class="saveButton col-md-1"><i class="fas fa-save saveIcon"></i></button> 
                 
       </section>
       <section id="hour-13" class="row time-block">
         <section class="col-md-1 hour">1PM</section>
-        <textarea class="col-md-10 description"></textarea>
-        <button class="saveBtn col-md-1"><i class="fas fa-check saveIcon"></i></button> 
+        <textarea id="eventDetails13" class="col-md-10 description"></textarea>
+        <button class="saveButton col-md-1"><i class="fas fa-check saveIcon"></i></button> 
                 
       </section>
       <section id="hour-14" class="row time-block">
         <section class="col-md-1 hour">2PM</section>
-        <textarea class="col-md-10 description"></textarea>
-        <button class="saveBtn col-md-1"><i class="fas fa-check saveIcon"></i></button> 
+        <textarea id="eventDetails14" class="col-md-10 description"></textarea>
+        <button class="saveButton col-md-1"><i class="fas fa-check saveIcon"></i></button> 
                 
       </section>
       <section id="hour-15" class="row time-block">
         <section class="col-md-1 hour">3PM</section>
-        <textarea class="col-md-10 description"></textarea>
-        <button class="saveBtn col-md-1"><i class="fas fa-check saveIcon"></i></button> 
+        <textarea id="eventDetails15" class="col-md-10 description"></textarea>
+        <button class="saveButton col-md-1"><i class="fas fa-check saveIcon"></i></button> 
                 
       </section>
       <section id="hour-16" class="row time-block">
         <section class="col-md-1 hour">4PM</section>
-        <textarea class="col-md-10 description"></textarea>
-        <button class="saveBtn col-md-1"><i class="fas fa-check saveIcon"></i></button> 
+        <textarea id="eventDetails16" class="col-md-10 description"></textarea>
+        <button class="saveButton col-md-1"><i class="fas fa-check saveIcon"></i></button> 
                 
       </section>
 
       <section id="hour-17" class="row time-block">
         <section class="col-md-1 hour">5PM</section>
-        <textarea class="col-md-10 description"></textarea>
-        <button class="saveBtn col-md-1"><i class="fas fa-check saveIcon"></i></button> 
+        <textarea id="eventDetails17" class="col-md-10 description"></textarea>
+        <button class="saveButton col-md-1"><i class="fas fa-check saveIcon"></i></button> 
                 
       </section>
     </section>
-
-
-         </div>
+     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
-    <script src="./assets/js/script.js "></script>;
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./assets/js/script.js"></script>
+    
       </body>
 </html>

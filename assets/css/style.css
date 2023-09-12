@@ -68,7 +68,7 @@ header {
   color: white;
 }
 
-.saveBtn {
+.saveButton {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -76,7 +76,24 @@ header {
   color: white;
 }
 
-.saveBtn i:hover {
+.saveButton i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+.show {
+display: block;
+
+}
+
+.notification {
+  display: none;
+  color: black;
+  
+
+
+
+
+}
+
 }

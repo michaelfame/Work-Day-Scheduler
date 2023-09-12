@@ -4,9 +4,9 @@ To create a Daily planner to manage work schedules
 
 It allows a user to save events for each hour of the daye. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by jQuery
 
-## Github repo details: 
+## Github repo details: https://github.com/michaelfame/Work-Day-Scheduler
 
-## Url details can be found : 
+## Url details can be found :https://michaelfame.github.io/Work-Day-Scheduler/ 
 
 ### AIM of the Assignment
 Using knowledge gained in JQuery,Day.js, CSS and HTML,
